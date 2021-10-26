@@ -1,0 +1,9 @@
+/**
+ * yith-scroll.js
+ *
+ * @author Your Inspiration Themes
+ * @package YITH Infinite Scrolling
+ * @version 1.0.0
+ */
+
+!function(t){"use strict";if("undefined"!=typeof yith_infs){var i={nextSelector:yith_infs.nextSelector,navSelector:yith_infs.navSelector,itemSelector:yith_infs.itemSelector,contentSelector:yith_infs.contentSelector,loader:'<img src="'+yith_infs.loader+'">',is_shop:yith_infs.shop};t(yith_infs.contentSelector).yit_infinitescroll(i),t(document).on("yith-wcan-ajax-loading",function(){t(window).unbind("yith_infs_start")}),t(document).on("yith-wcan-ajax-filtered",function(){t(yith_infs.contentSelector).yit_infinitescroll(i)})}}(jQuery);

@@ -1,0 +1,150 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+#site-navigation-wrap .dropdown-menu>li>a {
+    font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0;
+}
+	
+@media only screen and (max-width: 959px) {
+  /* default breakpoint */
+   body.default-breakpoint #top-bar-nav {
+    display: inline-block !important ;
+  }
+}
+
+
+
+
+.woocommerce .category-image img {
+    height: 130px;
+    width: auto !important;
+}
+
+   
+@media only screen and (max-width: 959px) {
+.widget-area.sidebar-primary, .widget-area.sidebar-secondary, .content-left-sidebar .widget-area {
+	display:none ;
+	}
+}
+
+
+/* CSS pourcentage promotion WooCommerce */
+
+.pourcentage {
+	background-color: #D9534F;
+	display: block;
+	width:40%;
+	margin:10px auto;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	color: #fff;
+	text-align:center;
+	border-radius: .25em;
+}
+
+
+/*pour black fiday 
+
+.onsale {
+	background-color:#000000!important;
+	font-style: italic;
+}
+
+.menu-item-2636{
+	background-color:#000000!important;
+	}
+
+*/
+
+.menu-item-2923{
+	font-style: italic;
+	}
+
+
+/* aviso tienda */
+.demo_store {
+	padding: 7px 20px;
+	font-size: 12px;
+	background-color: #7d0f13 !important;
+}
+
+/* Whatsapp ligne à supprimer 
+#qlwapp.qlwapp-bottom-right.qlwapp-bubble {
+	    margin-bottom: 80px;
+		
+}  */
+
+/* cacher le fil d'ariane en page d'accueil */
+
+.home.page .page-header {
+   display:none !important;
+}
+
+
+/* correction padding des vidéos des articles */
+
+.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before {
+    padding-top: 2%;
+}
+
+
+
+/* 
+
+#site-header {
+
+
+background:#fff;
+height:60px;
+z-index:170;
+margin:0 auto;
+border-bottom:1px solid #dadada;
+width:100%;
+position:fixed;
+top:0;
+left:0;
+right:0;
+text-align: center;
+
+
+}
+*/
+
+
+/* COOKIES NOTICE */
+
+#cookie-notice, #cookie-notice * {
+	z-index:99999999 !important;
+}
+
+@media (max-width: 480px) {
+.cookie-notice-container, .cookie-revoke-container {
+    padding: 10px 10px;
+	font-size: 12px;
+
+	}
+}
+
+a#cn-more-info.cn-privacy-policy-link.cn-link {
+	color: #ffffff;
+	text-decoration: underline;
+}
+	
+/* TABLERO DE CONEXION  */
+
+.woocommerce-checkout form.login {
+    max-width: 100% !important;
+}
+	

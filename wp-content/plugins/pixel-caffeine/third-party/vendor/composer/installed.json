@@ -1,0 +1,1088 @@
+[
+    {
+        "name": "a5hleyrich\/wp-background-processing",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/deliciousbrains\/wp-background-processing.git",
+            "reference": "2cbee1abd1b49e1133cd8f611df4d4fc5a8b9800"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/deliciousbrains\/wp-background-processing\/zipball\/2cbee1abd1b49e1133cd8f611df4d4fc5a8b9800",
+            "reference": "2cbee1abd1b49e1133cd8f611df4d4fc5a8b9800",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "suggest": {
+            "coenjacobs\/mozart": "Easily wrap this library with your own prefix, to prevent collisions when multiple plugins use this library"
+        },
+        "time": "2020-07-31T07:00:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "classes\/"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Delicious Brains",
+                "email": "nom@deliciousbrains.com"
+            }
+        ],
+        "description": "WP Background Processing can be used to fire off non-blocking asynchronous requests or as a background processing tool, allowing you to queue tasks."
+    },
+    {
+        "name": "civicrm\/composer-downloads-plugin",
+        "version": "v3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/civicrm\/composer-downloads-plugin.git",
+            "reference": "3aabb6d259a86158d01829fc2c62a2afb9618877"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/civicrm\/composer-downloads-plugin\/zipball\/3aabb6d259a86158d01829fc2c62a2afb9618877",
+            "reference": "3aabb6d259a86158d01829fc2c62a2afb9618877",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1 || ^2.0",
+            "php": ">=5.6",
+            "togos\/gitignore": "~1.1.1"
+        },
+        "require-dev": {
+            "composer\/composer": "~1.0 || ~2.0",
+            "friendsofphp\/php-cs-fixer": "^2.3",
+            "phpunit\/phpunit": "^5.7",
+            "totten\/process-helper": "^1.0.1"
+        },
+        "time": "2020-11-02T05:26:23+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "LastCall\\DownloadsPlugin\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\LastCall\\DownloadsPlugin\\": "src\/"
+            }
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rob Bayliss",
+                "email": "rob@lastcallmedia.com"
+            },
+            {
+                "name": "Tim Otten",
+                "email": "totten@civicrm.org"
+            }
+        ],
+        "description": "Composer plugin for downloading additional files within any composer package."
+    },
+    {
+        "name": "facebook\/php-business-sdk",
+        "version": "10.0.0",
+        "version_normalized": "10.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/facebook\/facebook-php-business-sdk.git",
+            "reference": "099f423ee7537619a8a3c144067c60ede5fe0a61"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/facebook\/facebook-php-business-sdk\/zipball\/099f423ee7537619a8a3c144067c60ede5fe0a61",
+            "reference": "099f423ee7537619a8a3c144067c60ede5fe0a61",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp\/guzzle": "^6.5 || ^7.0"
+        },
+        "require-dev": {
+            "mockery\/mockery": "1.3.3",
+            "phpunit\/phpunit": "~8",
+            "symfony\/finder": "~2.6"
+        },
+        "time": "2021-03-02T20:03:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\FacebookAds\\": "src\/FacebookAds\/"
+            }
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "description": "PHP SDK for Facebook Business",
+        "homepage": "https:\/\/developers.facebook.com\/",
+        "keywords": [
+            "ads",
+            "business",
+            "facebook",
+            "instagram",
+            "page",
+            "sdk"
+        ]
+    },
+    {
+        "name": "firebase\/php-jwt",
+        "version": "v4.0.0",
+        "version_normalized": "4.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/firebase\/php-jwt.git",
+            "reference": "dccf163dc8ed7ed6a00afc06c51ee5186a428d35"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/firebase\/php-jwt\/zipball\/dccf163dc8ed7ed6a00afc06c51ee5186a428d35",
+            "reference": "dccf163dc8ed7ed6a00afc06c51ee5186a428d35",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-07-18T04:51:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Firebase\\JWT\\": "src"
+            }
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Neuman Vong",
+                "email": "neuman+pear@twilio.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Anant Narayanan",
+                "email": "anant@php.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+        "homepage": "https:\/\/github.com\/firebase\/php-jwt"
+    },
+    {
+        "name": "guzzlehttp\/guzzle",
+        "version": "6.5.5",
+        "version_normalized": "6.5.5.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/guzzle\/guzzle.git",
+            "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/guzzle\/guzzle\/zipball\/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+            "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "guzzlehttp\/promises": "^1.0",
+            "guzzlehttp\/psr7": "^1.6.1",
+            "php": ">=5.5",
+            "symfony\/polyfill-intl-idn": "^1.17.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit\/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+            "psr\/log": "^1.1"
+        },
+        "suggest": {
+            "psr\/log": "Required for using the Log middleware"
+        },
+        "time": "2020-06-16T21:01:06+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\GuzzleHttp\\": "src\/"
+            },
+            "files": [
+                "src\/functions_include.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https:\/\/github.com\/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http:\/\/guzzlephp.org\/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "guzzlehttp\/promises",
+        "version": "1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/guzzle\/promises.git",
+            "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/guzzle\/promises\/zipball\/8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+            "reference": "8e7d04f1f6450fef59366c399cfad4b9383aa30d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "symfony\/phpunit-bridge": "^4.4 || ^5.1"
+        },
+        "time": "2021-03-07T09:25:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\GuzzleHttp\\Promise\\": "src\/"
+            },
+            "files": [
+                "src\/functions_include.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https:\/\/github.com\/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "guzzlehttp\/psr7",
+        "version": "1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/guzzle\/psr7.git",
+            "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/guzzle\/psr7\/zipball\/53330f47520498c0ae1f61f7e2c90f55690c06a3",
+            "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr\/http-message": "~1.0",
+            "ralouphie\/getallheaders": "^2.0.5 || ^3.0.0"
+        },
+        "provide": {
+            "psr\/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "ext-zlib": "*",
+            "phpunit\/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
+        },
+        "suggest": {
+            "laminas\/laminas-httphandlerrunner": "Emit PSR-7 responses"
+        },
+        "time": "2020-09-30T07:37:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\GuzzleHttp\\Psr7\\": "src\/"
+            },
+            "files": [
+                "src\/functions_include.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https:\/\/github.com\/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https:\/\/github.com\/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "psr-7",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "paragonie\/random_compat",
+        "version": "v2.0.19",
+        "version_normalized": "2.0.19.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/paragonie\/random_compat.git",
+            "reference": "446fc9faa5c2a9ddf65eb7121c0af7e857295241"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/paragonie\/random_compat\/zipball\/446fc9faa5c2a9ddf65eb7121c0af7e857295241",
+            "reference": "446fc9faa5c2a9ddf65eb7121c0af7e857295241",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "phpunit\/phpunit": "4.*|5.*"
+        },
+        "suggest": {
+            "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+        },
+        "time": "2020-10-15T10:06:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib\/random.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Paragon Initiative Enterprises",
+                "email": "security@paragonie.com",
+                "homepage": "https:\/\/paragonie.com"
+            }
+        ],
+        "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+        "keywords": [
+            "csprng",
+            "polyfill",
+            "pseudorandom",
+            "random"
+        ]
+    },
+    {
+        "name": "psr\/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/php-fig\/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/php-fig\/http-message\/zipball\/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Psr\\Http\\Message\\": "src\/"
+            }
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http:\/\/www.php-fig.org\/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https:\/\/github.com\/php-fig\/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "ralouphie\/getallheaders",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/ralouphie\/getallheaders.git",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/ralouphie\/getallheaders\/zipball\/120b605dfeb996808c31b6477290a714d356e822",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "php-coveralls\/php-coveralls": "^2.1",
+            "phpunit\/phpunit": "^5 || ^6.5"
+        },
+        "time": "2019-03-08T08:55:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src\/getallheaders.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ralph Khattar",
+                "email": "ralph.khattar@gmail.com"
+            }
+        ],
+        "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "ramsey\/uuid",
+        "version": "3.9.3",
+        "version_normalized": "3.9.3.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/ramsey\/uuid.git",
+            "reference": "7e1633a6964b48589b142d60542f9ed31bd37a92"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/ramsey\/uuid\/zipball\/7e1633a6964b48589b142d60542f9ed31bd37a92",
+            "reference": "7e1633a6964b48589b142d60542f9ed31bd37a92",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "paragonie\/random_compat": "^1 | ^2 | 9.99.99",
+            "php": "^5.4 | ^7 | ^8",
+            "symfony\/polyfill-ctype": "^1.8"
+        },
+        "replace": {
+            "rhumsaa\/uuid": "self.version"
+        },
+        "require-dev": {
+            "codeception\/aspect-mock": "^1 | ^2",
+            "doctrine\/annotations": "^1.2",
+            "goaop\/framework": "1.0.0-alpha.2 | ^1 | ^2.1",
+            "jakub-onderka\/php-parallel-lint": "^1",
+            "mockery\/mockery": "^0.9.11 | ^1",
+            "moontoast\/math": "^1.1",
+            "paragonie\/random-lib": "^2",
+            "php-mock\/php-mock-phpunit": "^0.3 | ^1.1",
+            "phpunit\/phpunit": "^4.8 | ^5.4 | ^6.5",
+            "squizlabs\/php_codesniffer": "^3.5"
+        },
+        "suggest": {
+            "ext-ctype": "Provides support for PHP Ctype functions",
+            "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
+            "ext-openssl": "Provides the OpenSSL extension for use with the OpenSslGenerator",
+            "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
+            "moontoast\/math": "Provides support for converting UUID to 128-bit integer (in string form).",
+            "paragonie\/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
+            "ramsey\/uuid-console": "A console application for generating UUIDs with ramsey\/uuid",
+            "ramsey\/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+        },
+        "time": "2020-02-21T04:36:14+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Ramsey\\Uuid\\": "src\/"
+            },
+            "files": [
+                "src\/functions.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ben Ramsey",
+                "email": "ben@benramsey.com",
+                "homepage": "https:\/\/benramsey.com"
+            },
+            {
+                "name": "Marijn Huizendveld",
+                "email": "marijn.huizendveld@gmail.com"
+            },
+            {
+                "name": "Thibaud Fabre",
+                "email": "thibaud@aztech.io"
+            }
+        ],
+        "description": "Formerly rhumsaa\/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+        "homepage": "https:\/\/github.com\/ramsey\/uuid",
+        "keywords": [
+            "guid",
+            "identifier",
+            "uuid"
+        ]
+    },
+    {
+        "name": "symfony\/filesystem",
+        "version": "v2.8.52",
+        "version_normalized": "2.8.52.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/symfony\/filesystem.git",
+            "reference": "7ae46872dad09dffb7fe1e93a0937097339d0080"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/symfony\/filesystem\/zipball\/7ae46872dad09dffb7fe1e93a0937097339d0080",
+            "reference": "7ae46872dad09dffb7fe1e93a0937097339d0080",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony\/polyfill-ctype": "~1.8"
+        },
+        "time": "2018-11-11T11:18:13+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Symfony\\Component\\Filesystem\\": ""
+            },
+            "exclude-from-classmap": [
+                "\/Tests\/"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https:\/\/symfony.com\/contributors"
+            }
+        ],
+        "description": "Symfony Filesystem Component",
+        "homepage": "https:\/\/symfony.com"
+    },
+    {
+        "name": "symfony\/polyfill-ctype",
+        "version": "v1.19.0",
+        "version_normalized": "1.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/symfony\/polyfill-ctype.git",
+            "reference": "aed596913b70fae57be53d86faa2e9ef85a2297b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-ctype\/zipball\/aed596913b70fae57be53d86faa2e9ef85a2297b",
+            "reference": "aed596913b70fae57be53d86faa2e9ef85a2297b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2020-10-23T09:01:57+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.19-dev"
+            },
+            "thanks": {
+                "name": "symfony\/polyfill",
+                "url": "https:\/\/github.com\/symfony\/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https:\/\/symfony.com\/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https:\/\/symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "symfony\/polyfill-intl-idn",
+        "version": "v1.19.0",
+        "version_normalized": "1.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/symfony\/polyfill-intl-idn.git",
+            "reference": "4ad5115c0f5d5172a9fe8147675ec6de266d8826"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-intl-idn\/zipball\/4ad5115c0f5d5172a9fe8147675ec6de266d8826",
+            "reference": "4ad5115c0f5d5172a9fe8147675ec6de266d8826",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "symfony\/polyfill-intl-normalizer": "^1.10",
+            "symfony\/polyfill-php70": "^1.10",
+            "symfony\/polyfill-php72": "^1.10"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-10-21T09:57:48+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.19-dev"
+            },
+            "thanks": {
+                "name": "symfony\/polyfill",
+                "url": "https:\/\/github.com\/symfony\/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Symfony\\Polyfill\\Intl\\Idn\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Laurent Bassin",
+                "email": "laurent@bassin.info"
+            },
+            {
+                "name": "Trevor Rowbotham",
+                "email": "trevor.rowbotham@pm.me"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https:\/\/symfony.com\/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+        "homepage": "https:\/\/symfony.com",
+        "keywords": [
+            "compatibility",
+            "idn",
+            "intl",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https:\/\/symfony.com\/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https:\/\/github.com\/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony\/polyfill-intl-normalizer",
+        "version": "v1.19.0",
+        "version_normalized": "1.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/symfony\/polyfill-intl-normalizer.git",
+            "reference": "8db0ae7936b42feb370840cf24de1a144fb0ef27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-intl-normalizer\/zipball\/8db0ae7936b42feb370840cf24de1a144fb0ef27",
+            "reference": "8db0ae7936b42feb370840cf24de1a144fb0ef27",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-intl": "For best performance"
+        },
+        "time": "2020-10-23T09:01:57+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.19-dev"
+            },
+            "thanks": {
+                "name": "symfony\/polyfill",
+                "url": "https:\/\/github.com\/symfony\/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources\/stubs"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https:\/\/symfony.com\/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for intl's Normalizer class and related functions",
+        "homepage": "https:\/\/symfony.com",
+        "keywords": [
+            "compatibility",
+            "intl",
+            "normalizer",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https:\/\/symfony.com\/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https:\/\/github.com\/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony\/polyfill-php70",
+        "version": "v1.19.0",
+        "version_normalized": "1.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/symfony\/polyfill-php70.git",
+            "reference": "3fe414077251a81a1b15b1c709faf5c2fbae3d4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-php70\/zipball\/3fe414077251a81a1b15b1c709faf5c2fbae3d4e",
+            "reference": "3fe414077251a81a1b15b1c709faf5c2fbae3d4e",
+            "shasum": ""
+        },
+        "require": {
+            "paragonie\/random_compat": "~1.0|~2.0|~9.99",
+            "php": ">=5.3.3"
+        },
+        "time": "2020-10-23T09:01:57+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.19-dev"
+            },
+            "thanks": {
+                "name": "symfony\/polyfill",
+                "url": "https:\/\/github.com\/symfony\/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Symfony\\Polyfill\\Php70\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources\/stubs"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https:\/\/symfony.com\/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+        "homepage": "https:\/\/symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https:\/\/symfony.com\/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https:\/\/github.com\/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony\/polyfill-php72",
+        "version": "v1.19.0",
+        "version_normalized": "1.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/symfony\/polyfill-php72.git",
+            "reference": "beecef6b463b06954638f02378f52496cb84bacc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-php72\/zipball\/beecef6b463b06954638f02378f52496cb84bacc",
+            "reference": "beecef6b463b06954638f02378f52496cb84bacc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2020-10-23T09:01:57+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.19-dev"
+            },
+            "thanks": {
+                "name": "symfony\/polyfill",
+                "url": "https:\/\/github.com\/symfony\/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PixelCaffeine\\Dependencies\\Symfony\\Polyfill\\Php72\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https:\/\/symfony.com\/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+        "homepage": "https:\/\/symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https:\/\/symfony.com\/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https:\/\/github.com\/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "togos\/gitignore",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https:\/\/github.com\/TOGoS\/PHPGitIgnore.git",
+            "reference": "32bc0830e4123f670adcbf5ddda5bef362f4f4d4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https:\/\/api.github.com\/repos\/TOGoS\/PHPGitIgnore\/zipball\/32bc0830e4123f670adcbf5ddda5bef362f4f4d4",
+            "reference": "32bc0830e4123f670adcbf5ddda5bef362f4f4d4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "togos\/simpler-test": "1.1.1"
+        },
+        "time": "2019-04-19T19:16:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src\/main\/php\/"
+            ]
+        },
+        "notification-url": "https:\/\/packagist.org\/downloads\/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Parser for .gitignore (and sparse-checkout, and anything else using the same format) files"
+    }
+]

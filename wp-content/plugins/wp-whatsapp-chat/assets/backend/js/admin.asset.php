@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('jquery', 'qlwapp-select2', 'wp-color-picker'), 'version' => '95a89eebe37791ae03745cd87d157a7a');
